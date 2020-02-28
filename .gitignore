@@ -1,7 +1,8 @@
 .vs/
-IDX.WebHub.APIDemo/bin/
-IDX.WebHub.APIDemo/obj/
-IDX.WebHub.CLI/bin/
-IDX.WebHub.CLI/obj/
-IDX.WebHub/bin/
-IDX.WebHub/obj/
+BYTES.EWH.CLI/bin/
+BYTES.EWH/bin/
+BYTES.EWH/obj/
+Extensions/BYTES.EWH.Demo/obj/
+packages/
+Extensions/BYTES.EWH.Demo/bin/
+BYTES.EWH.CLI/obj/

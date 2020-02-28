@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HostSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Address>http://localhost</Address>
+  <Port>11833</Port>
+  <Extensions>
+    <ExtensionsSettings Source="%InstallationDir%\*.dll" ID="*" />
+    <ExtensionsSettings Source="%InstallationDir%\..\..\..\Extensions\BYTES.EWH.Demo\bin\Debug\*.dll" ID="*" />
+  </Extensions>
+  <Configurations>
+    <ConfigurationSettings Name="MyLogFile" Type="LogAppender">
+      <Parameters>
+        <Item Key="Extension">BYTES_LogAppender_RollingFile</Item>
+        <Item Key="FilePath">D:\Sample.LOG</Item>
+      </Parameters>
+    </ConfigurationSettings>
+	<!--
+    <ConfigurationSettings Name="MyHtDocsDir" Type="StaticContent">
+      <Parameters>
+        <Item Key="Path">%InstallationDir%\Content</Item>
+        <Item Key="Route">htdocs</Item>
+      </Parameters>
+    </ConfigurationSettings>
+	-->
+	<!--
+    <ConfigurationSettings Name="MyIndexFile" Type="StaticContent">
+      <Parameters>
+        <Item Key="Path">%InstallationDir%\Content\index.html</Item>
+        <Item Key="Route">/index.html</Item>
+      </Parameters>
+    </ConfigurationSettings>
+	-->
+	<!--
+    <ConfigurationSettings Name="MyAnswerService" Type="Service">
+      <Parameters>
+        <Item Key="Extension">APIDemo_AnswerService</Item>
+        <Item Key="TheAnswer">42</Item>
+      </Parameters>
+    </ConfigurationSettings>
+	-->
+	<ConfigurationSettings Name="MyProperties" Type="Properties">
+      <Parameters>
+        <Item Key="Default">42</Item>
+        <Item Key="NamedItem">Hello World!</Item>
+      </Parameters>
+    </ConfigurationSettings>
+  </Configurations>
+</HostSettings>
