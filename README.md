@@ -10,7 +10,7 @@
 # I am sorry...
 ... there is no fully-featured documentation available right now. It will (hopefully) become part of one of the next releases. Until now, please feel free to contact me directly.
 
-**Please note: ** You have to run Visual Studio with administrative rights, setting BYTES.EWH.CLI as startup project to make it work.
+**Please note:** You have to run Visual Studio with administrative rights, setting BYTES.EWH.CLI as startup project to make it work.
 
 # I would like to thank 
 
